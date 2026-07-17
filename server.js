@@ -44,14 +44,16 @@ if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 const DEFAULT_RATES = {
   date: new Date().toISOString().slice(0, 10),
   rates: [
-    { name: 'US Dollar', buy: '83.10', sell: '84.05' },
-    { name: 'Euro', buy: '89.40', sell: '90.60' },
-    { name: 'British Pound', buy: '104.20', sell: '105.75' },
-    { name: 'UAE Dirham', buy: '22.35', sell: '22.90' },
-    { name: 'Australian Dollar', buy: '54.60', sell: '55.70' },
-    { name: 'Canadian Dollar', buy: '60.10', sell: '61.20' },
-    { name: 'Singapore Dollar', buy: '61.40', sell: '62.50' },
-    { name: 'Thai Baht (per 100)', buy: '227.00', sell: '232.00' },
+    { name: 'US Dollar', buy: '94.00', sell: '101.50' },
+    { name: 'Euro', buy: '105.00', sell: '118.80' },
+    { name: 'British Pound', buy: '123.00', sell: '137.50' },
+    { name: 'UAE Dirham', buy: '22.80', sell: '29.80' },
+    { name: 'Australian Dollar', buy: '60.00', sell: '72.60' },
+    { name: 'Canadian Dollar', buy: '62.50', sell: '74.20' },
+    { name: 'Singapore Dollar', buy: '68.20', sell: '78.50' },
+    { name: 'Thai Baht', buy: '2.80', sell: '3.14' },
+     { name: 'Japanese Yen (per 100)', buy: '53.00', sell: '68.00' },
+     { name: 'Bangla Taka', buy: '0.63', sell: '0.90' },
   ],
 };
 
